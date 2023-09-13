@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int age;
-        String firstName = "";
-        String favouriteFood = "";
+        String firstName;
+        String favouriteFood;
 
         System.out.println("Please enter your age: ");
         age = scanner.nextInt();
